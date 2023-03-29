@@ -17,16 +17,12 @@ function App() {
 
       <Sidebar/>
         <Routes>
-          
-          <Route path ="/login" element = {<Login/>}/>
-          <Route element ={<Protected1/>}>
+        <Route path="/" exact element={<Navigate to="/login" />} />
+          <Route path ="/login"  element = {<Login/>}/>
           <Route path ="/" element = {<Home/>}/>
           <Route path ="/about" element = {<About/>}/>
           <Route path ="/contact" element = {<Contact/>}/>
-          </Route>
-        </Routes>
-      
-     
+          </Routes>
 
     </div>
   );

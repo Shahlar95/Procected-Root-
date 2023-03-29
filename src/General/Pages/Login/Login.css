@@ -7,6 +7,7 @@
       flex-direction: column;
      justify-content: center;
      align-items: center;
+     
       
   }
 
@@ -22,16 +23,36 @@
     margin: 5px;
     width: 250px;
     height: 30px;
+    
   }
 
-  .login-btn{
-    width: 257px;
+  .btn{
+    width: 260px;
     height: 35px;
-    background-color: rgb(13, 104, 104);
+    background-color: black;
     color: white;
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 4px;
     cursor: pointer;
+    
   }
   
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+   
+  }
+
+  .danger{
+    
+    border: 1px solid red;
+
+  }
+
+  .err{
+    color:red;
+  }
