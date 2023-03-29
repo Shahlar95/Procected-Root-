@@ -1,0 +1,26 @@
+*{
+    text-decoration: none;
+}
+.sidebar-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 100vh;
+
+}
+
+.sidebar-list{
+    list-style: none;
+}
+
+.sidebar-list p{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    border-bottom: none;  
+    
+}
